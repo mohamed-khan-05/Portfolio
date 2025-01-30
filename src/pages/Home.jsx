@@ -23,7 +23,7 @@ const Home = () => {
             <div className="flex-grow flex justify-center items-center">
               <div className="w-[400px] h-[400px] rounded-full overflow-hidden">
                 <img
-                  src="src/images/new.png"
+                  src="/images/new.png"
                   alt="Mohamed Asghar Khan"
                   className="w-full h-full object-cover object-top"
                 />
@@ -103,7 +103,7 @@ const Home = () => {
           <div className="flex justify-center mb-6">
             <div className="w-[250px] h-[250px] rounded-full overflow-hidden">
               <img
-                src="src/images/new.png"
+                src="/images/new.png"
                 alt="Mohamed Asghar Khan"
                 className="w-full h-full object-cover object-top"
               />

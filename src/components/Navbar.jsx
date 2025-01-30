@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className="flex h-[80px] justify-between items-center overflow-x-hidden">
       <div
         id="title"
-        className="text-[24px] ml-2 sm:text-[48px] content-center font-black tracking-[2px] sm:tracking-[5px] sm:ml-[100px]"
+        className="text-[24px] ml-2 sm:text-[48px] select-none content-center font-black tracking-[2px] sm:tracking-[5px] sm:ml-[100px]"
       >
         <h1
           onClick={() => {
@@ -101,7 +101,7 @@ const Navbar = () => {
         {isMenuOpen && (
           <div
             id="menuRef"
-            className="absolute font-semibold z-2 top-[80px] right-0 bg-[#cce1fa] w-[100vw] p-5 text-[20px] flex flex-col items-center transition-all duration-300 ease-in-out"
+            className="absolute font-semibold select-none z-2 top-[80px] right-0 bg-[#cce1fa] w-[100vw] p-5 text-[20px] flex flex-col items-center transition-all duration-300 ease-in-out"
           >
             <h1
               onClick={() => {

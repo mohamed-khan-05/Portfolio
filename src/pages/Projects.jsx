@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import ImageViewer from "../components/ImageViewer ";
 
 const Projects = () => {
+  const [view, setView] = useState(false);
+  const [pic, setPic] = useState("");
   return (
     <>
+      <ImageViewer view={view} pic={pic} onClose={() => setView(false)} />
+
       {/* Mobile view */}
       <div className="flex h-auto bg-blue-300 flex-col justify-center items-center p-5 sm:hidden">
         <div>
@@ -14,38 +19,151 @@ const Projects = () => {
           <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
             <div className="p-3">
               <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
-                Project 1
+                E-Commerce
               </h1>
-              <h2 className="font-semibold mb-3">Role Title</h2>
+              <h2 className="font-semibold mb-3">
+                React.js | Express.js | SQL
+              </h2>
               <p className="font-light mb-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam tempora, esse magni quia maxime optio sapiente
-                perspiciatis inventore! Eaque, saepe.
+                A platform for browsing, searching, and purchasing products
+                online, featuring secure authentication, a shopping cart, and an
+                integrated payment system.
               </p>
             </div>
-            <img src="src\images\new.png" alt="" />
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\new.png");
+              }}
+              src=""
+              alt=""
+            />
           </div>
-
-          {/* Project 1 */}
+          {/* Project 1 end */}
+          {/* Project 2 */}
           <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
             <div className="p-3">
               <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
-                Project 1
+                Task Manager
               </h1>
-              <h2 className="font-semibold mb-3">Role Title</h2>
+              <h2 className="font-semibold mb-3">
+                React.js | Express.js | SQL
+              </h2>
               <p className="font-light mb-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quibusdam tempora, esse magni quia maxime optio sapiente
-                perspiciatis inventore! Eaque, saepe.
+                A productivity tool that allows users to create, update, and
+                track tasks with due dates and statuses, enhancing organization
+                and efficiency.
               </p>
             </div>
-            <img src="src\images\new.png" alt="" />
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\Task Manager.png");
+              }}
+              src="\images\Task Manager.png"
+              alt=""
+            />
           </div>
+          {/* Project 2 end */}
+
+          {/* Project 3 */}
+          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
+            <div className="p-3">
+              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
+                Movie Finder
+              </h1>
+              <h2 className="font-semibold mb-3">React.js | Express.js</h2>
+              <p className="font-light mb-1">
+                A search-based application that provides movie details and
+                ratings using an external API.
+              </p>
+            </div>
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\moviefinder.png");
+              }}
+              src="\images\moviefinder.png"
+              alt=""
+            />
+          </div>
+          {/* Project 3 end */}
+
+          {/* Project 4 */}
+          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
+            <div className="p-3">
+              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
+                Nutrition Tracker
+              </h1>
+              <h2 className="font-semibold mb-3">React.js | Express.js</h2>
+              <p className="font-light mb-1">
+                A health-focused app that calculates daily caloric intake based
+                on macronutrient inputs, helping users monitor and manage their
+                diet effectively.
+              </p>
+            </div>
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\NutriTrack1.png");
+              }}
+              src="\images\NutriTrack1.png"
+              alt=""
+            />
+          </div>
+          {/* Project 4 end */}
+
+          {/* Project 5 */}
+          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
+            <div className="p-3">
+              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
+                Weather App
+              </h1>
+              <h2 className="font-semibold mb-3">React.js | Express.js</h2>
+              <p className="font-light mb-1">
+                A real-time weather application that provides forecasts,
+                temperature, and conditions based on searched cities using an
+                API.
+              </p>
+            </div>
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\WeatherApp.png");
+              }}
+              src="\images\WeatherApp.png"
+              alt=""
+            />
+          </div>
+          {/* Project 5 end */}
+
+          {/* Project 6 */}
+          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
+            <div className="p-3">
+              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
+                Credit Card Validator
+              </h1>
+              <h2 className="font-semibold mb-3">React.js | Express.js</h2>
+              <p className="font-light mb-1">
+                You enter a credit card number, hit Check, and the app validates
+                the format using the validator library.
+              </p>
+            </div>
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\ccvalidate.png");
+              }}
+              src="\images\ccvalidate.png"
+              alt=""
+            />
+          </div>
+          {/* Project 6 end */}
         </div>
       </div>
 
       {/* Desktop view */}
-      <div className="hidden sm:flex flex-col items-center pt-5 bg-blue-300 w-[100vw] h-auto">
+      <div className="hidden sm:flex flex-col items-center pt-5 bg-blue-300 w-auto h-auto">
         <div>
           <h1 className="text-[2rem] font-black mb-5">Projects</h1>
         </div>
@@ -55,45 +173,161 @@ const Projects = () => {
           className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
         >
           <div className="w-[30vw] justify-center pl-5 flex flex-col">
-            <h1 className="text-[1.6rem] text-[#1E8DCC]">Project 1</h1>
-            <h2 className="font-semibold mb-2">Role</h2>
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">E-Commerce</h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js | SQL</h2>
             <p className="font-light">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-              obcaecati at similique quis sunt voluptatibus illum sequi quisquam
-              eveniet placeat.
+              A platform for browsing, searching, and purchasing products
+              online, featuring secure authentication, a shopping cart, and an
+              integrated payment system.
             </p>
           </div>
           <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
             <img
               className="w-full h-full max-w-full max-h-full object-contain"
-              src="src/images/new.png"
+              src=""
               alt="Project"
             />
           </div>
         </div>
 
-        {/* Project 1 */}
+        {/* Project 2 start*/}
         <div
           id="shadow"
           className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
         >
           <div className="w-[30vw] justify-center pl-5 flex flex-col">
-            <h1 className="text-[1.6rem] text-[#1E8DCC]">Project 1</h1>
-            <h2 className="font-semibold mb-2">Role</h2>
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Task Manager</h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js | SQL</h2>
             <p className="font-light">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
-              obcaecati at similique quis sunt voluptatibus illum sequi quisquam
-              eveniet placeat.
+              A productivity tool that allows users to create, update, and track
+              tasks with due dates and statuses, enhancing organization and
+              efficiency.
             </p>
           </div>
           <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
             <img
+              onClick={() => {
+                setPic("images\\Task Manager.png");
+                setView(true);
+              }}
               className="w-full h-full max-w-full max-h-full object-contain"
-              src="src/images/new.png"
+              src="\images\Task Manager.png"
               alt="Project"
             />
           </div>
         </div>
+        {/* Project 2 end */}
+
+        {/* Project 3 start*/}
+        <div
+          id="shadow"
+          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
+        >
+          <div className="w-[30vw] justify-center pl-5 flex flex-col">
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Movie Finder</h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
+            <p className="font-light">
+              A search-based application that provides movie details and ratings
+              using an external API.
+            </p>
+          </div>
+          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
+            <img
+              onClick={() => {
+                setPic("images\\moviefinder.png");
+                setView(true);
+              }}
+              className="w-full h-full max-w-full max-h-full object-contain"
+              src="\images\moviefinder.png"
+              alt="Project"
+            />
+          </div>
+        </div>
+        {/* Project 3 end */}
+
+        {/* Project 4 start*/}
+        <div
+          id="shadow"
+          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
+        >
+          <div className="w-[30vw] justify-center pl-5 flex flex-col">
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Nutrition Tracker</h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
+            <p className="font-light">
+              A health-focused app that calculates daily caloric intake based on
+              macronutrient inputs, helping users monitor and manage their diet
+              effectively.
+            </p>
+          </div>
+          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
+            <img
+              onClick={() => {
+                setPic("images\\NutriTrack1.png");
+                setView(true);
+              }}
+              className="w-full h-full max-w-full max-h-full object-contain"
+              src="\images\NutriTrack1.png"
+              alt="Project"
+            />
+          </div>
+        </div>
+        {/* Project 4 end */}
+
+        {/* Project 5 start*/}
+        <div
+          id="shadow"
+          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
+        >
+          <div className="w-[30vw] justify-center pl-5 flex flex-col">
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Weather App</h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
+            <p className="font-light">
+              A real-time weather application that provides forecasts,
+              temperature, and conditions based on searched cities using an API.
+            </p>
+          </div>
+          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
+            <img
+              onClick={() => {
+                setPic("images\\WeatherApp.png");
+                setView(true);
+              }}
+              className="w-full h-full max-w-full max-h-full object-contain"
+              src="\images\WeatherApp.png"
+              alt="Project"
+            />
+          </div>
+        </div>
+        {/* Project 5 end */}
+
+        {/* Project 6 start*/}
+        <div
+          id="shadow"
+          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
+        >
+          <div className="w-[30vw] justify-center pl-5 flex flex-col">
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">
+              Credit Card Validator
+            </h1>
+            <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
+            <p className="font-light">
+              You enter a credit card number, hit Check, and the app validates
+              the format using the validator library.
+            </p>
+          </div>
+          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
+            <img
+              onClick={() => {
+                setPic("images\\ccvalidate.png");
+                setView(true);
+              }}
+              className="w-full h-full max-w-full max-h-full object-contain"
+              src="\images\ccvalidate.png"
+              alt="Project"
+            />
+          </div>
+        </div>
+        {/* Project 6 end */}
       </div>
     </>
   );
