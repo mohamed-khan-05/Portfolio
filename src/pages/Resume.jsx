@@ -16,37 +16,12 @@ const Resume = () => {
         </div>
         <div className="flex justify-around items-center w-full mt-8">
           <h1 className="font-semibold text-[18px]">Experience</h1>
-          <button className="text-[12px] font-semibold px-3 py-2 rounded-2xl border-[#60A6FA] border-2 bg-white">
+          <button className="text-[12px] hidden font-semibold px-3 py-2 rounded-2xl border-[#60A6FA] border-2 bg-white">
             DOWNLOAD CV
           </button>
         </div>
 
         {/* xp 1 */}
-        <div className="bg-white px-3 py-6 my-4 rounded-lg" id="shadow">
-          <h1 className="text-[#1E8DCC] font-black">2023</h1>
-          <h1 className="text-[1.2rem] mb-1 font-medium">Bookmarker Web App</h1>
-          <h2>
-            <strong>Role</strong>: Lead Coder <br /> <strong>Tech Stack</strong>
-            : ASP.NET, SQL, C#
-          </h2>
-
-          <ul className="font-light mt-4">
-            <li>
-              Developed a bookmarking application for saving books, articles,
-              and movies/series.
-            </li>
-            <li>
-              Contributed the majority of the coding, ensuring functionality and
-              UI/UX optimization.
-            </li>
-            <li>
-              Implemented data storage and retrieval for a smooth user
-              experience.
-            </li>
-          </ul>
-        </div>
-
-        {/* xp 2 */}
         <div className="bg-white px-3 py-6 my-4 rounded-lg" id="shadow">
           <h1 className="text-[#1E8DCC] font-black">2024</h1>
           <h1 className="text-[1.2rem] mb-1 font-medium">
@@ -69,6 +44,31 @@ const Resume = () => {
             <li>
               Integrated a user-friendly dashboard for teachers to manage
               meetings and track completed sessions.
+            </li>
+          </ul>
+        </div>
+
+        {/* xp 2 */}
+        <div className="bg-white px-3 py-6 my-4 rounded-lg" id="shadow">
+          <h1 className="text-[#1E8DCC] font-black">2023</h1>
+          <h1 className="text-[1.2rem] mb-1 font-medium">Bookmarker Web App</h1>
+          <h2>
+            <strong>Role</strong>: Lead Coder <br /> <strong>Tech Stack</strong>
+            : ASP.NET, SQL, C#
+          </h2>
+
+          <ul className="font-light mt-4">
+            <li>
+              Developed a bookmarking application for saving books, articles,
+              and movies/series.
+            </li>
+            <li>
+              Contributed the majority of the coding, ensuring functionality and
+              UI/UX optimization.
+            </li>
+            <li>
+              Implemented data storage and retrieval for a smooth user
+              experience.
             </li>
           </ul>
         </div>
@@ -101,7 +101,7 @@ const Resume = () => {
                 <div>
                   <AiOutlineRobot />
                 </div>
-                MACHINE INTELLIGENT
+                MACHINE INTELLIGENCE
               </li>
               <li className="flex items-center gap-4">
                 <div>
@@ -223,6 +223,12 @@ const Resume = () => {
                   <div>
                     <FaCode />
                   </div>
+                  <li>Java</li>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div>
+                    <FaCode />
+                  </div>
                   <li>C#</li>
                 </div>
               </ul>
@@ -236,7 +242,7 @@ const Resume = () => {
                   <div className="flex items-center">
                     <MdSchool />
                   </div>
-                  <li>AWS Services</li>
+                  <li>Azure Services</li>
                 </div>
                 <div className="flex gap-2 mb-2">
                   <div className="flex items-center">
@@ -310,44 +316,12 @@ const Resume = () => {
         <div className="w-[60vw]">
           <div className="flex justify-between items-center mb-8">
             <h1 className="text-[1.5rem] font-bold">Experience</h1>
-            <button className="w-40 text-[14px] font-bold cursor-pointer h-10 rounded-3xl bg-white border-2 border-[#60A6FA] hover:bg-[#1E8DCC] hover:text-white hover:border-[#166A9A]">
+            <button className="w-40 text-[14px] font-bold hidden cursor-pointer h-10 rounded-3xl bg-white border-2 border-[#60A6FA] hover:bg-[#1E8DCC] hover:text-white hover:border-[#166A9A]">
               DOWNLOAD CV
             </button>
           </div>
 
           {/* xp 1 */}
-          <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
-            <div className="w-[50%] ">
-              <h1 className="text-[#1E8DCC] font-bold">2023</h1>
-              <h1 className="text-[1.2rem] font-medium mb-4">
-                Bookmarker Web App
-              </h1>
-              <h2>
-                <strong>Role</strong>: Lead Coder <br />
-                <strong>Tech Stack</strong>: ASP.NET, SQL, C#
-              </h2>
-            </div>
-            <div className="flex w-[50%] items-center justify-center font-light">
-              <ul>
-                <li>
-                  Developed a bookmarking application for saving books,
-                  articles, and movies/series.
-                </li>
-                <br />
-                <li>
-                  Contributed the majority of the coding, ensuring functionality
-                  and UI/UX optimization.
-                </li>
-                <br />
-                <li>
-                  Implemented data storage and retrieval for a smooth user
-                  experience.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          {/* xp 2 */}
           <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
             <div className="w-[50%] ">
               <h1 className="text-[#1E8DCC] font-bold">2024</h1>
@@ -379,11 +353,41 @@ const Resume = () => {
             </div>
           </div>
 
+          {/* xp 2 */}
+          <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
+            <div className="w-[50%] ">
+              <h1 className="text-[#1E8DCC] font-bold">2023</h1>
+              <h1 className="text-[1.2rem] font-medium mb-4">
+                Bookmarker Web App
+              </h1>
+              <h2>
+                <strong>Role</strong>: Lead Coder <br />
+                <strong>Tech Stack</strong>: ASP.NET, SQL, C#
+              </h2>
+            </div>
+            <div className="flex w-[50%] items-center justify-center font-light">
+              <ul>
+                <li>
+                  Developed a bookmarking application for saving books,
+                  articles, and movies/series.
+                </li>
+                <br />
+                <li>
+                  Contributed the majority of the coding, ensuring functionality
+                  and UI/UX optimization.
+                </li>
+                <br />
+                <li>
+                  Implemented data storage and retrieval for a smooth user
+                  experience.
+                </li>
+              </ul>
+            </div>
+          </div>
           {/* education */}
           <div className="flex justify-between items-center mb-8 mt-14">
             <h1 className="text-[1.5rem] font-bold">Education</h1>
           </div>
-
           {/* uni */}
           <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
             <div className="w-[50%] ">
@@ -400,7 +404,7 @@ const Resume = () => {
                 <li className="font-normal">Relevant Coursework :</li>
                 <br />
                 <li className="flex items-center gap-4">
-                  <AiOutlineRobot /> MACHINE INTELLIGENT
+                  <AiOutlineRobot /> MACHINE INTELLIGENCE
                 </li>
                 <li className="flex items-center gap-4">
                   <FaCode /> INTEGRATIVE PROGRAMMING AND TECHNOLOGY
@@ -427,12 +431,10 @@ const Resume = () => {
             </div>
           </div>
           {/* education end */}
-
           {/* skills start */}
           <div className="flex justify-between items-center mb-8 mt-14">
             <h1 className="text-[1.5rem] font-bold">Skills</h1>
           </div>
-
           <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
             <div className="flex gap-[10vw]">
               <div>
@@ -466,6 +468,9 @@ const Resume = () => {
                     <FaCode /> <li>Python</li>
                   </div>
                   <div className="flex items-center gap-4">
+                    <FaCode /> <li>Java</li>
+                  </div>
+                  <div className="flex items-center gap-4">
                     <FaCode /> <li>C#</li>
                   </div>
                 </ul>
@@ -477,7 +482,7 @@ const Resume = () => {
                 <ul>
                   <div className="flex gap-2">
                     <MdSchool />
-                    <li>AWS Services</li>
+                    <li>Azure Services</li>
                   </div>
                   <div className="flex gap-2">
                     <MdSchool />

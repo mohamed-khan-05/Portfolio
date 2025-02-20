@@ -32,7 +32,7 @@ const Home = () => {
             <div className="w-full text-center h-[70px] bg-white text-lg font-medium">
               <div className="flex justify-center gap-10 items-center h-full">
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/in/mohamed-khan-72a5aa289"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-3xl hover:text-[#1E8DCC]"
@@ -40,7 +40,7 @@ const Home = () => {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/mohamed_khan_2401/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-3xl hover:text-[#1E8DCC]"
@@ -48,7 +48,7 @@ const Home = () => {
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/mohamed-khan-05"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-3xl hover:text-[#1E8DCC]"
@@ -130,7 +130,7 @@ const Home = () => {
 
           <div className="flex justify-center gap-8 mt-4 bg-white text-black py-3">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/mohamed-khan-72a5aa289"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"
@@ -138,7 +138,7 @@ const Home = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/mohamed_khan_2401/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"
@@ -146,7 +146,7 @@ const Home = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/mohamed-khan-05"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"

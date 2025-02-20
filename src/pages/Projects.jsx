@@ -19,31 +19,6 @@ const Projects = () => {
           <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
             <div className="p-3">
               <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
-                E-Commerce
-              </h1>
-              <h2 className="font-semibold mb-3">
-                React.js | Express.js | SQL
-              </h2>
-              <p className="font-light mb-1">
-                A platform for browsing, searching, and purchasing products
-                online, featuring secure authentication, a shopping cart, and an
-                integrated payment system.
-              </p>
-            </div>
-            <img
-              onClick={() => {
-                setView(!view);
-                setPic("images\\new.png");
-              }}
-              src=""
-              alt=""
-            />
-          </div>
-          {/* Project 1 end */}
-          {/* Project 2 */}
-          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
-            <div className="p-3">
-              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
                 Task Manager
               </h1>
               <h2 className="font-semibold mb-3">
@@ -61,6 +36,31 @@ const Projects = () => {
                 setPic("images\\Task Manager.png");
               }}
               src="\images\Task Manager.png"
+              alt=""
+            />
+          </div>
+          {/* Project 1 end */}
+
+          {/* Project 2 */}
+          <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
+            <div className="p-3">
+              <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
+                Recipe Finder
+              </h1>
+              <h2 className="font-semibold mb-3">React.js | Tailwind CSS</h2>
+              <p className="font-light mb-1">
+                A web app for searching recipes by ingredient, displaying dish
+                details, ingredients, and YouTube tutorials. Built with React
+                for functionality, Tailwind for styling, and TheMealDB API for
+                dynamic data.
+              </p>
+            </div>
+            <img
+              onClick={() => {
+                setView(!view);
+                setPic("images\\recipefinder.png");
+              }}
+              src="\images\recipefinder.png"
               alt=""
             />
           </div>
@@ -167,30 +167,7 @@ const Projects = () => {
         <div>
           <h1 className="text-[2rem] font-black mb-5">Projects</h1>
         </div>
-        {/* Project 1 */}
-        <div
-          id="shadow"
-          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
-        >
-          <div className="w-[30vw] justify-center pl-5 flex flex-col">
-            <h1 className="text-[1.6rem] text-[#1E8DCC]">E-Commerce</h1>
-            <h2 className="font-semibold mb-2"> React.js | Express.js | SQL</h2>
-            <p className="font-light">
-              A platform for browsing, searching, and purchasing products
-              online, featuring secure authentication, a shopping cart, and an
-              integrated payment system.
-            </p>
-          </div>
-          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
-            <img
-              className="w-full h-full max-w-full max-h-full object-contain"
-              src=""
-              alt="Project"
-            />
-          </div>
-        </div>
-
-        {/* Project 2 start*/}
+        {/* Project 1 start*/}
         <div
           id="shadow"
           className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
@@ -212,6 +189,35 @@ const Projects = () => {
               }}
               className="w-full h-full max-w-full max-h-full object-contain"
               src="\images\Task Manager.png"
+              alt="Project"
+            />
+          </div>
+        </div>
+        {/* Project 1 end */}
+
+        {/* Project 2 start*/}
+        <div
+          id="shadow"
+          className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
+        >
+          <div className="w-[30vw] justify-center pl-5 flex flex-col">
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Recipe Finder</h1>
+            <h2 className="font-semibold mb-2"> React.js | Tailwind CSS</h2>
+            <p className="font-light">
+              A web app for searching recipes by ingredient, displaying dish
+              details, ingredients, and YouTube tutorials. Built with React for
+              functionality, Tailwind for styling, and TheMealDB API for dynamic
+              data.
+            </p>
+          </div>
+          <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
+            <img
+              onClick={() => {
+                setPic("images\\recipefinder.png");
+                setView(true);
+              }}
+              className="w-full h-full max-w-full max-h-full object-contain"
+              src="\images\recipefinder.png"
               alt="Project"
             />
           </div>

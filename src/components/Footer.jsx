@@ -25,7 +25,7 @@ const Footer = () => {
           <h1 className="text-[14px] font-semibold">Follow</h1>
           <div className="flex gap-4 bg-white text-black py-3">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/mohamed-khan-72a5aa289"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"
@@ -33,7 +33,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/mohamed_khan_2401/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"
@@ -41,7 +41,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/mohamed-khan-05"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl"
@@ -75,7 +75,7 @@ const Footer = () => {
             <h1 className="font-semibold">Follow</h1>
             <div className="flex gap-4 bg-white text-black py-1">
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/in/mohamed-khan-72a5aa289"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl"
@@ -83,7 +83,7 @@ const Footer = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="https://www.instagram.com"
+                href="https://www.instagram.com/mohamed_khan_2401/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl"
@@ -91,7 +91,7 @@ const Footer = () => {
                 <FaInstagram />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/mohamed-khan-05"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-3xl"
