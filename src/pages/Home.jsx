@@ -84,10 +84,10 @@ const Home = () => {
             </div>
             <div className="mt-14 text-justify leading-relaxed w-[400px]">
               <p>
-                Passionate and skilled web developer pursuing a Bachelor of
-                Information and Communication Technology. Proficient in
-                designing, developing, and maintaining responsive websites and
-                web applications.
+                Passionate about data analytics and data science, constantly
+                building skills through projects and real-world applications.
+                Focused on turning data into insights while exploring new tools,
+                techniques, and challenges in the field.
               </p>
             </div>
           </div>
@@ -166,10 +166,10 @@ const Home = () => {
             </div>
             <div className="my-3 text-lg mx-1 text-center text-white">
               <p>
-                Passionate and skilled web developer pursuing a Bachelor of
-                Information and Communication Technology. Proficient in
-                designing, developing, and maintaining responsive websites and
-                web applications.
+                Passionate about data analytics and data science, constantly
+                building skills through projects and real-world applications.
+                Focused on turning data into insights while exploring new tools,
+                techniques, and challenges in the field.
               </p>
             </div>
           </div>
