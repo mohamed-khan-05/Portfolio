@@ -70,20 +70,21 @@ const Projects = () => {
           <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
             <div className="p-3">
               <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
-                Movie Finder
+                Weather App
               </h1>
               <h2 className="font-semibold mb-3">React.js | Express.js</h2>
               <p className="font-light mb-1">
-                A search-based application that provides movie details and
-                ratings using an external API.
+                A real-time weather application that provides forecasts,
+                temperature, and conditions based on searched cities using an
+                API.
               </p>
             </div>
             <img
               onClick={() => {
                 setView(!view);
-                setPic("images\\moviefinder.png");
+                setPic("images\\WeatherApp.png");
               }}
-              src="\images\moviefinder.png"
+              src="\images\WeatherApp.png"
               alt=""
             />
           </div>
@@ -117,21 +118,20 @@ const Projects = () => {
           <div className="bg-white my-8 rounded-lg overflow-hidden" id="shadow">
             <div className="p-3">
               <h1 className="text-[#1E8DCC] text-[1.3rem] font-bold">
-                Weather App
+                Movie Finder
               </h1>
               <h2 className="font-semibold mb-3">React.js | Express.js</h2>
               <p className="font-light mb-1">
-                A real-time weather application that provides forecasts,
-                temperature, and conditions based on searched cities using an
-                API.
+                A search-based application that provides movie details and
+                ratings using an external API.
               </p>
             </div>
             <img
               onClick={() => {
                 setView(!view);
-                setPic("images\\WeatherApp.png");
+                setPic("images\\moviefinder.png");
               }}
-              src="\images\WeatherApp.png"
+              src="\images\moviefinder.png"
               alt=""
             />
           </div>
@@ -230,21 +230,21 @@ const Projects = () => {
           className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
         >
           <div className="w-[30vw] justify-center pl-5 flex flex-col">
-            <h1 className="text-[1.6rem] text-[#1E8DCC]">Movie Finder</h1>
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Weather App</h1>
             <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
             <p className="font-light">
-              A search-based application that provides movie details and ratings
-              using an external API.
+              A real-time weather application that provides forecasts,
+              temperature, and conditions based on searched cities using an API.
             </p>
           </div>
           <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
             <img
               onClick={() => {
-                setPic("images\\moviefinder.png");
+                setPic("images\\WeatherApp.png");
                 setView(true);
               }}
               className="w-full h-full max-w-full max-h-full object-contain"
-              src="\images\moviefinder.png"
+              src="\images\WeatherApp.png"
               alt="Project"
             />
           </div>
@@ -285,21 +285,21 @@ const Projects = () => {
           className="flex w-[60vw] h-[30vh] mb-8 bg-white rounded-lg"
         >
           <div className="w-[30vw] justify-center pl-5 flex flex-col">
-            <h1 className="text-[1.6rem] text-[#1E8DCC]">Weather App</h1>
+            <h1 className="text-[1.6rem] text-[#1E8DCC]">Movie Finder</h1>
             <h2 className="font-semibold mb-2"> React.js | Express.js</h2>
             <p className="font-light">
-              A real-time weather application that provides forecasts,
-              temperature, and conditions based on searched cities using an API.
+              A search-based application that provides movie details and ratings
+              using an external API.
             </p>
           </div>
           <div className="w-[30vw] h-full flex justify-center items-center overflow-hidden">
             <img
               onClick={() => {
-                setPic("images\\WeatherApp.png");
+                setPic("images\\moviefinder.png");
                 setView(true);
               }}
               className="w-full h-full max-w-full max-h-full object-contain"
-              src="\images\WeatherApp.png"
+              src="\images\moviefinder.png"
               alt="Project"
             />
           </div>
