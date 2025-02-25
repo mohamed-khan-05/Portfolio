@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
 
-const Navbar = () => {
+const Navbar = (props) => {
   const para = useLocation();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [tab, setTab] = useState("about");
+  const { tab, setTab } = props;
 
   useEffect(() => {
     setIsMenuOpen(false);

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 import { useNavigate } from "react-router";
 
@@ -8,7 +8,8 @@ import { useNavigate } from "react-router";
 // Button - #1E8DCC
 // Button b - #166A9A
 
-const Home = () => {
+const Home = (props) => {
+  const { setTab } = props;
   const navigate = useNavigate();
   return (
     <div>
@@ -67,6 +68,7 @@ const Home = () => {
             <div className="flex gap-5 mt-10">
               <button
                 onClick={() => {
+                  setTab("resume");
                   navigate("/resume");
                 }}
                 className="w-40 font-bold cursor-pointer h-10 rounded-3xl border-2 border-[#166A9A] bg-[#1E8DCC] text-white hover:border-[#60A6FA] hover:text-black hover:bg-white"
@@ -75,6 +77,7 @@ const Home = () => {
               </button>
               <button
                 onClick={() => {
+                  setTab("projects");
                   navigate("/projects");
                 }}
                 className="w-40 font-bold cursor-pointer h-10 rounded-3xl border-2 bg-white border-[#60A6FA] hover:bg-[#1E8DCC] hover:text-white hover:border-[#166A9A]"
@@ -112,6 +115,7 @@ const Home = () => {
           <div className="flex justify-center gap-5 mt-6">
             <button
               onClick={() => {
+                setTab("resume");
                 navigate("/resume");
               }}
               className="w-32 font-semibold cursor-pointer h-10 rounded-3xl border-2 border-[#0e94e2] bg-[#1E8DCC] text-white"
@@ -120,6 +124,7 @@ const Home = () => {
             </button>
             <button
               onClick={() => {
+                setTab("projects");
                 navigate("/projects");
               }}
               className="w-32 font-semibold cursor-pointer h-10 rounded-3xl border-2 border-[#60A6FA] bg-white"
