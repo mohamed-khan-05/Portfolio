@@ -205,6 +205,12 @@ const Resume = () => {
                   <div>
                     <FaCode />
                   </div>
+                  <li>XML</li>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div>
+                    <FaCode />
+                  </div>
                   <li>CSS</li>
                 </div>
                 <div className="flex items-center gap-4">
@@ -224,6 +230,12 @@ const Resume = () => {
                     <FaCode />
                   </div>
                   <li>Java</li>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div>
+                    <FaCode />
+                  </div>
+                  <li>Kotlin</li>
                 </div>
                 <div className="flex items-center gap-4">
                   <div>
@@ -459,6 +471,9 @@ const Resume = () => {
                     <FaCode /> <li>HTML</li>
                   </div>
                   <div className="flex items-center gap-4">
+                    <FaCode /> <li>XML</li>
+                  </div>
+                  <div className="flex items-center gap-4">
                     <FaCode /> <li>CSS</li>
                   </div>
                   <div className="flex items-center gap-4">
@@ -469,6 +484,9 @@ const Resume = () => {
                   </div>
                   <div className="flex items-center gap-4">
                     <FaCode /> <li>Java</li>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <FaCode /> <li>Kotlin</li>
                   </div>
                   <div className="flex items-center gap-4">
                     <FaCode /> <li>C#</li>
