@@ -21,54 +21,63 @@ const Resume = () => {
           </button>
         </div>
 
-        {/* xp 1 */}
+        {/* xp 2 */}
         <div className="bg-white px-3 py-6 my-4 rounded-lg" id="shadow">
-          <h1 className="text-[#1E8DCC] font-black">2024</h1>
+          <h1 className="text-[#1E8DCC] font-black">2025</h1>
           <h1 className="text-[1.2rem] mb-1 font-medium">
-            Teacher-Parent Booking System
+            Student Recruitment mobile application
           </h1>
           <h2>
-            <strong>Role</strong>: Team Leader <br />
-            <strong>Tech Stack</strong>: ASP.NET, SQL, C#
+            <strong>Role</strong>: Developer <br />
+            <strong>Tech Stack</strong>: Kotlin, JavaScript, Firebase
           </h2>
 
           <ul className="font-light mt-4">
             <li>
-              Led a team in developing a scheduling system for teachers and
-              parents to discuss students' progress.
+              Developed a mobile app in Android Studio using Kotlin to
+              streamline graduate and postgraduate recruitment
             </li>
             <li>
-              Designed and implemented booking functionalities, ensuring
-              seamless scheduling and role-based access.
+              Enabled graduates to create CV-based profiles and apply for job
+              opportunities
             </li>
             <li>
-              Integrated a user-friendly dashboard for teachers to manage
-              meetings and track completed sessions.
+              Built employer-facing features: candidate search and filtering,
+              application tracking, and profile management
+            </li>
+            <li>
+              Implemented push notifications for job alerts and direct messaging
+              between candidates and recruiters
             </li>
           </ul>
         </div>
 
-        {/* xp 2 */}
+        {/* xp 1 */}
         <div className="bg-white px-3 py-6 my-4 rounded-lg" id="shadow">
-          <h1 className="text-[#1E8DCC] font-black">2023</h1>
-          <h1 className="text-[1.2rem] mb-1 font-medium">Bookmarker Web App</h1>
+          <h1 className="text-[#1E8DCC] font-black">2025</h1>
+          <h1 className="text-[1.2rem] mb-1 font-medium">
+            Online Campus Bookstore
+          </h1>
           <h2>
-            <strong>Role</strong>: Lead Coder <br /> <strong>Tech Stack</strong>
-            : ASP.NET, SQL, C#
+            <strong>Role</strong>: Developer <br />
+            <strong>Tech Stack</strong>: React, Flask, SQLite
           </h2>
 
           <ul className="font-light mt-4">
             <li>
-              Developed a bookmarking application for saving books, articles,
-              and movies/series.
+              Developed a full-stack web application to streamline book
+              purchases for university students
             </li>
             <li>
-              Contributed the majority of the coding, ensuring functionality and
-              UI/UX optimization.
+              Built a secure, responsive marketplace using React and Flask
             </li>
             <li>
-              Implemented data storage and retrieval for a smooth user
-              experience.
+              Integrated payment processing via Paystack, enabling real-time
+              transactions and order tracking
+            </li>
+            <li>
+              Implemented user authentication, cart and wishlist management, and
+              book review features
             </li>
           </ul>
         </div>
@@ -333,65 +342,74 @@ const Resume = () => {
             </button>
           </div>
 
-          {/* xp 1 */}
+          {/* xp 2 */}
           <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
             <div className="w-[50%] ">
-              <h1 className="text-[#1E8DCC] font-bold">2024</h1>
+              <h1 className="text-[#1E8DCC] font-bold">2025</h1>
               <h1 className="text-[1.2rem] font-medium mb-4">
-                Teacher-Parent Booking System
+                Student Recruitment mobile application
               </h1>
               <h2>
-                <strong>Role</strong>:Team Leader <br />
-                <strong>Tech Stack</strong>: ASP.NET, SQL, C#
+                <strong>Role</strong>: Developer <br />
+                <strong>Tech Stack</strong>: Kotlin, JavaScript, Firebase
               </h2>
             </div>
             <div className="flex w-[50%] items-center justify-center font-light">
               <ul>
                 <li>
-                  Led a team in developing a scheduling system for teachers and
-                  parents to discuss students' progress.
+                  Developed a mobile app in Android Studio using Kotlin to
+                  streamline graduate and postgraduate recruitment
                 </li>
                 <br />
                 <li>
-                  Designed and implemented booking functionalities, ensuring
-                  seamless scheduling and role-based access.
+                  Enabled graduates to create CV-based profiles and apply for
+                  job opportunities
                 </li>
                 <br />
                 <li>
-                  Integrated a user-friendly dashboard for teachers to manage
-                  meetings and track completed sessions.
+                  Built employer-facing features: candidate search and
+                  filtering, application tracking, and profile management
+                </li>
+                <br />
+                <li>
+                  Implemented push notifications for job alerts and direct
+                  messaging between candidates and recruiters
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* xp 2 */}
+          {/* xp 1 */}
           <div className="flex bg-white p-8 rounded-lg mb-10" id="shadow">
             <div className="w-[50%] ">
-              <h1 className="text-[#1E8DCC] font-bold">2023</h1>
+              <h1 className="text-[#1E8DCC] font-bold">2025</h1>
               <h1 className="text-[1.2rem] font-medium mb-4">
-                Bookmarker Web App
+                Online Campus Bookstore
               </h1>
               <h2>
-                <strong>Role</strong>: Lead Coder <br />
-                <strong>Tech Stack</strong>: ASP.NET, SQL, C#
+                <strong>Role</strong>: Developer <br />
+                <strong>Tech Stack</strong>: React, Flask, SQLite
               </h2>
             </div>
             <div className="flex w-[50%] items-center justify-center font-light">
               <ul>
                 <li>
-                  Developed a bookmarking application for saving books,
-                  articles, and movies/series.
+                  Developed a full-stack web application to streamline book
+                  purchases for university students
                 </li>
                 <br />
                 <li>
-                  Contributed the majority of the coding, ensuring functionality
-                  and UI/UX optimization.
+                  Built a secure, responsive marketplace using React and Flask
                 </li>
                 <br />
                 <li>
-                  Implemented data storage and retrieval for a smooth user
-                  experience.
+                  Integrated payment processing via Paystack, enabling real-time
+                  transactions and order tracking
+                </li>
+                <br />
+                <li>
+                  Implemented user authentication, cart and wishlist management,
+                  and book review features
                 </li>
               </ul>
             </div>
